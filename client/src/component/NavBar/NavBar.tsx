@@ -1,4 +1,5 @@
 import React from 'react'
+import Homepage from '../Homepage/Homepage';
 import {
     BrowserRouter as Router,
     Switch,
@@ -12,11 +13,10 @@ export default function NavBar() {
     return (
        <Router>
         <div className="navbar">
-            <div className="logo">
-                <img src="logo.png" alt="logo" />
-            </div>
-
             <div className="nav-links">
+                <div className="logo">
+                    <img src="logo.png" alt="logo" />
+                </div>
                 <nav className="nav">
                     <ul>
                         <li>
@@ -24,30 +24,30 @@ export default function NavBar() {
                         </li>
 
                         <li>
-                            <Link to="/" className="link">About</Link>
+                            <Link to="/about" className="link">About</Link>
                         </li>
 
                         <li>
-                            <Link to="/" className="link">Services</Link>
+                            <Link to="/services" className="link">Services</Link>
                         </li>
 
                         <li>
-                            <Link to="/" className="link">Features</Link>
+                            <Link to="/features" className="link">Features</Link>
                         </li>
 
                         <li>
-                            <Link to="/" className="link">Blog</Link>
+                            <Link to="/blog" className="link">Blog</Link>
                         </li>
 
                         <li>
-                            <Link to="/" className="link">Contacts</Link>
+                            <Link to="/contacts" className="link">Contacts</Link>
                         </li>
                     </ul>
                 </nav> 
-
+            </div>
                 <Switch>
                     <Route exact path="/">
-                         Home
+                         <Homepage />
                     </Route>
 
                     <Route path="/about">
@@ -70,7 +70,6 @@ export default function NavBar() {
                          Contacts
                     </Route>
                 </Switch>
-            </div>
         </div>
        </Router>
     )
