@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Currency from './component/Homepage/Currency/Currency';
 import Graph from './component/Homepage/Graph/Graph';
+import Steps from './component/Homepage/Steps/Steps';
 import NavBar from './component/NavBar/NavBar';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Currency />
       <Graph />
+      <Steps />
     </div>
   );
 }
