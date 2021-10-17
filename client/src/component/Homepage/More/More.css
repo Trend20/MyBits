@@ -1,0 +1,68 @@
+.more{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: url(../../bg-img/more-about.jpg);
+    background-repeat: no-repeat;
+    padding: 150px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.more-text{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.more-text h3{
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    margin-top: -10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fab915;
+    border-color: #fab915;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 16px 29px;
+    width: 25%;
+    outline: none;
+    border: none;
+    margin-top: -15px;
+    line-height: 1.5;
+    letter-spacing: 3.4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(65, 65, 65);
+}
