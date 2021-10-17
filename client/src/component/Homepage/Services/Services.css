@@ -1,0 +1,10 @@
+.services{
+    display: flex;
+    width: 100%;
+    padding: 100px 20px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+}
