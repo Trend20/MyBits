@@ -5,7 +5,7 @@ function Services() {
     return (
         <div className="services">
             <div className="service">
-                <div className="service-desc">
+                <div className="first-column">
                    <div className="desc-text">
                        <h3>Safe and Secure</h3>
                        <p>Be sure in your account security and your funds safe.</p>
@@ -14,7 +14,7 @@ function Services() {
                         <img src="/img/secure.png" alt="secure" />
                     </div>
                 </div>
-                <div className="service-desc">
+                <div className="first-column">
                    <div className="desc-text">
                        <h3>Mobile Apps</h3>
                        <p>Perfectly developed mobile apps will open you new opportunities.</p>
@@ -23,7 +23,7 @@ function Services() {
                         <img src="/img/mobile.png" alt="secure" />
                     </div>
                 </div>
-                <div className="service-desc">
+                <div className="first-column">
                    <div className="desc-text">
                        <h3>Wallet</h3>
                        <p>Easy-to-use personal wallet will keep your bitcoins in safe.</p>
@@ -37,7 +37,7 @@ function Services() {
                 <img src="/img/bits.png" alt="bits" />
             </div>
             <div className="service">
-                <div className="service-desc">
+                <div className="second-column">
                 <div className="desc-image">
                         <img src="/img/experts.png" alt="experts" />
                     </div>
@@ -46,7 +46,7 @@ function Services() {
                        <p>Highly professional support will answer all your questions regarding bitcoins.</p>
                     </div> 
                 </div>
-                <div className="service-desc">
+                <div className="second-column">
                     <div className="desc-image">
                         <img src="/img/exchange.png" alt="exchange" />
                     </div>
@@ -55,7 +55,7 @@ function Services() {
                        <p>Instant Exchange allows you to send bitcoin and pay for it with your . . .</p>
                     </div> 
                 </div>
-                <div className="service-desc">
+                <div className="second-column">
                     <div className="desc-image">
                         <img src="/img/recuring.png" alt="recuring" />
                     </div>
