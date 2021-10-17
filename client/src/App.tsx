@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Calculator from './component/Homepage/Calculator/Calculator';
 import Currency from './component/Homepage/Currency/Currency';
 import Graph from './component/Homepage/Graph/Graph';
 import More from './component/Homepage/More/More';
@@ -21,6 +22,7 @@ function App() {
       <Services />
       <More />
       {/* <Testimonials /> */}
+      <Calculator />
     </div>
   );
 }
