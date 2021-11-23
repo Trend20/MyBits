@@ -1,5 +1,5 @@
 .copyright {
-  background: #000;
+  background: rgb(17, 23, 36);
   width: 100%;
   color: #fff;
   display: flex;
@@ -11,4 +11,5 @@
 .copyright p {
   display: flex;
   font-size: 0.8rem;
+  opacity: 0.9;
 }
