@@ -36,7 +36,6 @@
   font-size: 60px;
   line-height: 1.1;
   letter-spacing: 0px;
-  margin-top: -10px;
   width: 100%;
 }
 
@@ -62,7 +61,7 @@
   line-height: 1.6;
   letter-spacing: 0px;
   width: 60%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .calc-btn {
@@ -85,7 +84,7 @@
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.3s;
-  margin-top: 15px;
+  margin-top: 50px;
 }
 
 .calc-btn:hover {

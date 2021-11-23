@@ -1,103 +1,106 @@
-*{
-    font-family: 'Montserrat', sans-serif; 
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-.graph{
-    display: flex;
-    padding: 120px;
-    justify-content: space-around;
-    background: #192028;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* margin: -8px 0px -8px -8px; */
+.graph {
+  display: flex;
+  padding: 120px;
+  justify-content: space-around;
+  background: #192028;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin: -8px 0px -8px -8px; */
 }
 
-.image{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.image img{
-    display: flex;
-    width: 100%;
+.image img {
+  display: flex;
+  max-width: 100%;
 }
 
-.graph-description{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    height: auto;
-    margin-left: 200px;
+.graph-description {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  height: auto;
+  margin-left: 200px;
+  margin-top: 50px;
 }
 
-.graph-description h1{
-    font-weight: 700;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    color: #9b9b9b;
-    font-size: 24px;
-    line-height: 2.2;
-    letter-spacing: 9px;
+.graph-description h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #9b9b9b;
+  font-size: 24px;
+  line-height: 2.2;
+  letter-spacing: 9px;
 }
 
-.graph-description h3{
-    font-weight: 700;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 60px;
-    line-height: 1.1;
-    letter-spacing: 0px;
-    margin-top: -10px;
-    width: 80%;
+.graph-description h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  width: 80%;
 }
 
-span{
-    display: flex;
-    color: #fab915;
-    border: 2px solid #fab915;
-    width: 10%;
+span {
+  display: flex;
+  color: #fab915;
+  border: 2px solid #fab915;
+  width: 20%;
 }
 
-h5{
-    color: #ffffff;
+h5 {
+  color: #ffffff;
+  margin-top: 30px;
 }
-.graph-description p{
-    font-weight: 300;
-    font-style: normal;
-    font-family: 'Lato', sans-serif;
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 1.6;
-    letter-spacing: 0px;
-    width: 70%;
-}
-
-.graph-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fab915;
-    border-color: #fab915;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffffff;
-    font-size: 14px;
-    padding: 16px 29px;
-    width: 28%;
-    outline: none;
-    border: none;
-    margin-top: -15px;
-    line-height: 1.5;
-    letter-spacing: 3.4px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s;
-    margin-top: 15px;
+.graph-description p {
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+  width: 70%;
+  margin-top: 30px;
 }
 
-.graph-btn:hover{
-    background-color: rgb(65, 65, 65);
+.graph-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fab915;
+  border-color: #fab915;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 16px 29px;
+  width: 28%;
+  outline: none;
+  border: none;
+  margin-top: -15px;
+  line-height: 1.5;
+  letter-spacing: 3.4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+.graph-btn:hover {
+  background-color: rgb(65, 65, 65);
 }
