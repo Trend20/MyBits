@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Calculator from './component/Homepage/Calculator/Calculator';
+import Copy from './component/Homepage/Copyright/Copy';
 import Currency from './component/Homepage/Currency/Currency';
 import Footer from './component/Homepage/Footer/Footer';
 import Graph from './component/Homepage/Graph/Graph';
@@ -25,6 +26,7 @@ function App() {
       {/* <Testimonials /> */}
       <Calculator />
       <Footer />
+      <Copy />
     </div>
   );
 }

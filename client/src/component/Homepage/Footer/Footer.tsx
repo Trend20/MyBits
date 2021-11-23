@@ -26,10 +26,6 @@ const Footer = () => {
         <a href="(555) 2346-789">(555) 2346-789</a>, <a href="(555) 2346-790">(555) 2346-790</a>
         </p>
       </div>
-
-      <div className="copyright">
-        <p>2021 © All Rights Reserved  |  Privacy Policy </p>
-      </div>
     </div>
   )
 }
