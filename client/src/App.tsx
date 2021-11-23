@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Calculator from './component/Homepage/Calculator/Calculator';
 import Currency from './component/Homepage/Currency/Currency';
+import Footer from './component/Homepage/Footer/Footer';
 import Graph from './component/Homepage/Graph/Graph';
 import More from './component/Homepage/More/More';
 import Services from './component/Homepage/Services/Services';
@@ -23,6 +24,7 @@ function App() {
       <More />
       {/* <Testimonials /> */}
       <Calculator />
+      <Footer />
     </div>
   );
 }

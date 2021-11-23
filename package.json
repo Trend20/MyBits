@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Trend20/MyBits#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-icons": "^4.3.1"
   }
 }
