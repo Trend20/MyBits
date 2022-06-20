@@ -38,8 +38,8 @@ export default function NavBar() {
                     </ul>
                 </nav> 
                 <div className="auth-btn">
-                    <RouterLink to="/login" id='login'>Login</RouterLink>
-                    <RouterLink to="/register" id='register'>Sign Up</RouterLink>
+                    <button id='login'>Login</button>
+                    <button id='register'>Sign Up</button>
                 </div>
             </div>
         </div>

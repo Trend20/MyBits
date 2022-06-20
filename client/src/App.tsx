@@ -10,35 +10,24 @@ import Services from './component/Services/Services';
 import Steps from './component/Steps/Steps';
 import NavBar from './component/NavBar/NavBar';
 import Homepage from './component/Homepage/Homepage';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
 import Login from './component/Login/Login';
-import Register from './component/Register/Register';
 
 function App() {
   return (
     <div className="app">
       <div className="nav-container">
          <NavBar />
-         <BrowserRouter>
-          <Routes>
-            <Route path="login"  element={<Login />} />
-            <Route path="register" element={<Register />} />
-          </Routes>
-         </BrowserRouter>
          <Homepage />
       </div>
-      <Currency />
+      {/* <Currency />
       <Graph />
       <Steps />
       <Services />
       <More />
       <Calculator />
       <Footer />
-      <Copy />
+      <Copy /> */}
+      <Login />
     </div>
   );
 }
