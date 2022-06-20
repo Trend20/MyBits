@@ -1,17 +1,11 @@
 import React from 'react'
 import Homepage from '../Homepage/Homepage';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from 'react-scroll'
 
 import './NavBar.css';
 
 export default function NavBar() {
     return (
-       <Router>
         <div className="navbar" id='navbar'>
             <div className="nav-links">
                 <div className="logo">
@@ -20,57 +14,31 @@ export default function NavBar() {
                 <nav className="nav">
                     <ul>
                         <li>
-                            <Link to="/" className="link active">Home</Link>
+                            <Link to="homepage" className="link active">Home</Link>
                         </li>
 
                         <li>
-                            <Link to="/about" className="link">About</Link>
+                            <Link to="currency" className="link">About</Link>
                         </li>
 
                         <li>
-                            <Link to="/services" className="link">Services</Link>
+                            <Link to="services" className="link">Services</Link>
                         </li>
 
                         <li>
-                            <Link to="/features" className="link">Features</Link>
+                            <Link to="steps" className="link">Steps</Link>
                         </li>
 
                         <li>
-                            <Link to="/blog" className="link">Blog</Link>
+                            <Link to="blog" className="link">Blog</Link>
                         </li>
 
                         <li>
-                            <Link to="/contacts" className="link">Contacts</Link>
+                            <Link to="contacts" className="link">Contacts</Link>
                         </li>
                     </ul>
                 </nav> 
             </div>
-                <Switch>
-                    <Route exact path="/">
-                         <Homepage />
-                    </Route>
-
-                    <Route path="/about">
-                         About
-                    </Route>
-
-                    <Route path="/services">
-                         Services 
-                    </Route>
-
-                    <Route path="/features">
-                         Features
-                    </Route>
-
-                    <Route path="/blog">
-                        Blog
-                    </Route>
-
-                    <Route path="/contacts">
-                         Contacts
-                    </Route>
-                </Switch>
         </div>
-       </Router>
     )
 }
