@@ -6,7 +6,7 @@
 
 # Aboutpage
 
-![user-form](readmeimgs/bit2.png)
+![user-form](readmeimgs/bit1.png)
 
 # Steps
 
@@ -14,4 +14,4 @@
 
 # Calculator
 
-![user-form](readmeimgs/bit3.png)
+![user-form](readmeimgs/bit4.png)
