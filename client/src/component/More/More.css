@@ -4,7 +4,7 @@
     justify-content: space-around;
     background: url(../bg-img/more-about.jpg);
     background-repeat: no-repeat;
-    padding: 150px;
+    padding: 100px;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -23,11 +23,11 @@
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 60px;
-    line-height: 1.1;
+    font-size: 50px;
+    line-height: 1.5;
     letter-spacing: 0px;
     margin-top: -10px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@
     color: #ffffff;
     font-size: 14px;
     padding: 16px 29px;
-    width: 25%;
+    width:30%;
     outline: none;
     border: none;
     margin-top: -15px;
