@@ -1,38 +1,24 @@
-* {
-  font-family: "Montserrat", sans-serif;
-}
-
-.bit-currency {
-  display: flex;
-  padding: 100px;
-  justify-content: space-around;
-  background: url(../../bg-img/bitbg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.image img {
+.calculator {
   display: flex;
   width: 100%;
-}
-
-.currency-description {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
   height: auto;
-  margin-top: 50px;
+  justify-content: space-evenly;
+  padding: 100px;
+  background: url(../bg-img/calc-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffff;
 }
 
-.currency-description h1 {
+.calc-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 120px;
+}
+.calc-text h3 {
   font-weight: 700;
   font-style: normal;
   font-family: "Montserrat", sans-serif;
@@ -42,37 +28,43 @@
   letter-spacing: 9px;
 }
 
-.currency-description h3 {
+.calc-text h1 {
   font-weight: 700;
   font-style: normal;
   font-family: "Montserrat", sans-serif;
-  color: #192028;
+  color: #ffffff;
   font-size: 60px;
   line-height: 1.1;
   letter-spacing: 0px;
-  width: 60%;
+  width: 100%;
 }
 
-span {
-  display: flex;
+.calc-text h4 {
   color: #fab915;
-  border: 1px solid #fab915;
-  width: 40%;
-  margin-top: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 0.9;
+  letter-spacing: 0px;
+  margin-top: 50px;
 }
-.currency-description p {
+
+.calc-text p {
   font-weight: 300;
   font-style: normal;
   font-family: "Lato", sans-serif;
-  color: #192028;
+  color: #ffffff;
   font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0px;
-  width: 70%;
-  margin-top: 30px;
+  width: 60%;
+  margin-top: 50px;
 }
 
-.currency-btn {
+.calc-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,14 +78,20 @@ span {
   width: 25%;
   outline: none;
   border: none;
+  margin-top: -15px;
   line-height: 1.5;
   letter-spacing: 3.4px;
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.3s;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
-.currency-btn:hover {
+.calc-btn:hover {
   background-color: rgb(65, 65, 65);
+}
+
+.bit-units {
+  display: flex;
+  width: 50%;
 }

@@ -3,7 +3,7 @@ import './Calculator.css';
 
 function Calculator() {
     return (
-        <div className="calculator">
+        <div className="calculator" id='calculator'>
             <div className="calc-text">
                 <h3>CALCULATOR</h3>
                 <h1>Bitcoin to <br /> Currency Calculator</h1>

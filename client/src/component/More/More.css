@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background: url(../../bg-img/more-about.jpg);
+    background: url(../bg-img/more-about.jpg);
     background-repeat: no-repeat;
     padding: 150px;
     background-size: cover;
