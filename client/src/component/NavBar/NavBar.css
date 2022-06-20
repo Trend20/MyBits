@@ -52,3 +52,47 @@
 .active{
     color: rgb(228, 144, 33);
 }
+
+.auth-btn{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#login{
+    background: #fff;
+    color: #111;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+#register{
+    background: #fab915;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+#login:hover{
+    background: #fab915;
+    color: #fff;
+}
+
+#register:hover{
+    background: #fff;
+    color: #111;
+}
