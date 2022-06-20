@@ -5,7 +5,7 @@ import './Homepage.css';
 
 export default function Homepage() {
     return (
-        <div className="homepage">
+        <div className="homepage" id='homepage'>
             <div className="banner">
                 <h3 className="banner-head">WELCOME</h3>
                 <p className="banner-description">

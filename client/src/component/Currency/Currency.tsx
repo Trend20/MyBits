@@ -3,7 +3,7 @@ import './Currency.css';
 
 function Currency() {
     return (
-        <div className="bit-currency">
+        <div className="bit-currency" id='currency'>
             <div className="image">
                 <img src="img/bitcoin.png" alt="bitimage" />
             </div>

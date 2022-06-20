@@ -12,7 +12,7 @@ import './NavBar.css';
 export default function NavBar() {
     return (
        <Router>
-        <div className="navbar">
+        <div className="navbar" id='navbar'>
             <div className="nav-links">
                 <div className="logo">
                     <img src="logo.png" alt="logo" />

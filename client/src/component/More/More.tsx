@@ -4,7 +4,7 @@ import './More.css';
 
 function More() {
     return (
-        <div className="more">
+        <div className="more" id='more'>
             <div className="more-text">
                 <h3>Whant to Know More About Bitcoin?</h3>
             </div>

@@ -3,7 +3,7 @@ import './Steps.css';
 
 function Steps() {
     return (
-        <div className="steps">
+        <div className="steps" id='steps'>
              <h1>BUY AND SELL BITCOIN</h1>
              <h3>Simple Steps to Get Started</h3>
              <span></span>
