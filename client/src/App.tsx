@@ -10,6 +10,7 @@ import Services from './component/Services/Services';
 import Steps from './component/Steps/Steps';
 import NavBar from './component/NavBar/NavBar';
 import Homepage from './component/Homepage/Homepage';
+import Login from './component/Login/Login';
 
 function App() {
   return (
@@ -18,14 +19,15 @@ function App() {
          <NavBar />
          <Homepage />
       </div>
-      <Currency />
+      {/* <Currency />
       <Graph />
       <Steps />
       <Services />
       <More />
       <Calculator />
       <Footer />
-      <Copy />
+      <Copy /> */}
+      <Login />
     </div>
   );
 }

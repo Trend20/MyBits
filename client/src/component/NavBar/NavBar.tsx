@@ -1,13 +1,10 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import { BrowserRouter as Router, Route, Link as RouterLink } from 'react-router-dom';
-
+import {Link as RouterLink } from 'react-router-dom';
 import './NavBar.css';
-import { BrowserRouter } from 'react-router-dom';
 
 export default function NavBar() {
     return (
-        <BrowserRouter>
             <div className="navbar" id='navbar'>
             <div className="nav-links">
                 <div className="logo">
@@ -41,11 +38,10 @@ export default function NavBar() {
                     </ul>
                 </nav> 
                 <div className="auth-btn">
-                    <RouterLink to="/login" id='login'>Login</RouterLink>
-                    <RouterLink to="/register" id='register'>Sign Up</RouterLink>
+                    <button id='login'>Login</button>
+                    <button id='register'>Sign Up</button>
                 </div>
             </div>
         </div>
-        </BrowserRouter>
     )
 }
