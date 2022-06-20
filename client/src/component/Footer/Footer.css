@@ -28,6 +28,11 @@
   margin-top: 20px;
 }
 
+.social-icons i:hover{
+  color: #fab915;
+  transition: 1s ease;
+}
+
 .footer-text {
   display: flex;
   flex-direction: column;
