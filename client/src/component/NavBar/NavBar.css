@@ -15,8 +15,9 @@
 
 .logo{
     display: flex;
-    width: 40%;
+    width: 25%;
     justify-content: center;
+    align-items: center;
 }
 
 .nav{
@@ -38,6 +39,7 @@
     text-transform: uppercase;
     font-size: .8;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .link{

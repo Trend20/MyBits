@@ -20,6 +20,7 @@
   background: url(../src/component/bg-img/content-bg01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 100vh;
   overflow-x: hidden;
   width: 100%;

@@ -3,7 +3,7 @@ import './Graph.css';
 
 function Graph() {
     return (
-        <div className="graph">
+        <div className="graph" id='graph'>
             <div className="graph-description">
                  <h1>BUY BITCOINS</h1>
                  <h3>
