@@ -14,10 +14,17 @@ const Register = () =>{
           <h1>Welcome to Bitunit</h1>
           <p>Register to access our services</p>
 
+          {/* username */}
           <FormGroup className="form-group">
             <input type="text" placeholder='Username' />
           </FormGroup>
 
+          {/* email address */}
+          <FormGroup className="form-group">
+            <input type="email" placeholder='Email' />
+          </FormGroup>
+
+          {/* password */}
           <FormGroup className="form-group">
             <input type="password" placeholder='Password' />
           </FormGroup>
